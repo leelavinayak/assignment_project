@@ -1,0 +1,11 @@
+create database userdetails;
+use userdetails;
+
+create table details(
+ID int primary key auto_increment,
+UserName varchar(200),
+UserEmailId varchar(300) unique,
+Hashedpassword varchar(300)
+);
+
+select * from details;
